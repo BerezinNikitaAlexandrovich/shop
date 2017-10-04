@@ -1,4 +1,7 @@
 <%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!-- путь проекта -->
+<% String contextPath = request.getContextPath(); %>
 <!-- menu -->
 <div class="menu_left">
   <nav class="navbar nav_bottom">
@@ -10,6 +13,7 @@
 		<span class="icon-bar"></span> <span class="icon-bar"></span>
 	  </button>
 	</div> 
+	
 	<!--//Отображение кнопки списка на мобильных устройствах -->
 	<!-- Элементы меню -->
 	<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
@@ -19,8 +23,8 @@
 		  <div class="dropdown-menu mega-dropdown-menu goods_menu">
 			<div class="menu">
 			  <ul>	
-			    <li><a href="">Товар 1</a></li>
-				<li><a href="">Товар 2</a></li>
+			    <li><a href="">Подкаталог 1</a></li>
+				<li><a href="">Подкаталог 2</a></li>
 			  </ul>
 			</div>                  
 		  </div>				
@@ -30,8 +34,8 @@
 		  <div class="dropdown-menu mega-dropdown-menu goods_menu">
 		    <div class="menu">
 			  <ul>	
-			    <li><a href="">Товар 3</a></li>
-			    <li><a href="">Товар 4</a></li>
+			    <li><a href="">Подкаталог 3</a></li>
+			    <li><a href="">Подкаталог 4</a></li>
 			  </ul>
 		    </div>                  
 		  </div>				

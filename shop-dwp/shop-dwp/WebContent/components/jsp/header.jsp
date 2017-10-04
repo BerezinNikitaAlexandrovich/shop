@@ -53,8 +53,15 @@
 <div class="logo">
   <div class="container">
 	<div class="logo_left">
-	  <h1><a href=""><span>Магазин электротехнических изделий</span></a></h1>
+	  <h1><a><span>Магазин электротехнических изделий</span></a></h1>
     </div>
+    <div class="logo_center">
+				<ul class="special_items">
+					<li><a href="">Новости</a><i>/</i></li>
+					<li><a href="">О нас</a><i>/</i></li>
+					<li><a href="">Адрес</a></li>
+				</ul>
+	</div>
   </div>
 </div>
 <!-- //Логотип -->

@@ -12,7 +12,7 @@
     <jsp:include page="components/jsp/header.jsp"></jsp:include>
     <!-- //header -->
     <!-- menu -->
-    <jsp:include page="components/jsp/menu.jsp"></jsp:include>
+    <jsp:include page="/components/jsp/menu.jsp"></jsp:include>
     <!-- //menu -->
     <!-- footer -->
     <jsp:include page="components/jsp/footer.jsp"></jsp:include>   
